@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Alopex Games</title>
+  <desc id="desc">Abstract paths connecting three worlds beneath the Alopex Games name.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b14"/>
+      <stop offset="0.55" stop-color="#11182a"/>
+      <stop offset="1" stop-color="#1b1020"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef6a3a"/>
+      <stop offset="0.55" stop-color="#f2a65a"/>
+      <stop offset="1" stop-color="#f6d58a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ef6a3a" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ef6a3a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <circle cx="1010" cy="90" r="220" fill="url(#glow)" clip-path="url(#frame)"/>
+
+  <g fill="#bec8dd" opacity="0.35">
+    <circle cx="82" cy="75" r="2"/>
+    <circle cx="155" cy="288" r="1.5"/>
+    <circle cx="275" cy="62" r="1.5"/>
+    <circle cx="421" cy="306" r="2"/>
+    <circle cx="557" cy="48" r="1"/>
+    <circle cx="709" cy="304" r="1.5"/>
+    <circle cx="830" cy="71" r="2"/>
+    <circle cx="1108" cy="284" r="1.5"/>
+  </g>
+
+  <g transform="translate(88 87)">
+    <path d="M0 142 C46 82 94 36 164 9 C114 55 92 103 82 159" fill="none" stroke="url(#flame)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M24 158 C75 108 130 84 199 82 C151 99 118 132 92 174" fill="none" stroke="#ef6a3a" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+    <circle cx="0" cy="142" r="9" fill="#f6d58a"/>
+    <circle cx="164" cy="9" r="7" fill="#ef6a3a"/>
+    <circle cx="199" cy="82" r="6" fill="#f2a65a"/>
+    <circle cx="92" cy="174" r="5" fill="#f6d58a"/>
+    <g fill="#ef6a3a" opacity="0.55" filter="url(#soft-glow)">
+      <circle cx="0" cy="142" r="18"/>
+      <circle cx="164" cy="9" r="14"/>
+      <circle cx="199" cy="82" r="12"/>
+    </g>
+  </g>
+
+  <text x="390" y="167" fill="#f5f2ed" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="74" font-weight="700" letter-spacing="9">ALOPEX</text>
+  <text x="396" y="218" fill="#ef9b61" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="600" letter-spacing="12">GAMES</text>
+  <path d="M397 247 H1024" stroke="#65708a" stroke-width="1" opacity="0.45"/>
+  <text x="396" y="286" fill="#aeb7c9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" letter-spacing="2">INDEPENDENT WORLDS · SHARED HORIZONS</text>
+</svg>
